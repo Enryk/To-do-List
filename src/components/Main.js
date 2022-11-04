@@ -50,7 +50,6 @@ export default class Main extends Component {
         index: -1,
       })
     }
-
   }
 
   handleChange = (event) => {
@@ -80,7 +79,6 @@ export default class Main extends Component {
 
   render() {
     const { novaTarefa, tarefas } = this.state;
-
     return (
       <div className="main">
         <h1>Lista de Tarefas</h1>
@@ -96,7 +94,6 @@ export default class Main extends Component {
         handleEdit={this.handleEdit}
         handleDelete={this.handleDelete}
         />
-
       </div>
     )
   }
