@@ -11,6 +11,8 @@
   font-size: 20px;
   border: 1px solid #ccc;
   min-width: 80%;
+  color: #1900ff;
+  text-transform: uppercase;
 }
 
 .form button[type="submit"] {
